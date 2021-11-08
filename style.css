@@ -4,8 +4,8 @@ body{
 
 .container{
     padding-top: 4px;
-    padding-right: 70px;
-    padding-left: 70px;
+    padding-right: 100px;
+    padding-left: 100px;
 }
 .part1{
     
@@ -43,5 +43,33 @@ body{
 }
 
 .right{
-    margin-left: 50%;
+    margin-left: 15%;
+}
+.s1{
+    color: rgb(226, 96, 49);
+}
+.leftbox{
+    height: 450px;
+    width: 450px;
+    
+}
+
+.bold{
+    font-weight:600;
+    font-family:sans-serif;
+    font-size: 3.5rem;
+}
+
+.button{
+        background-color: #04AA6D;
+        border: none;
+        color: white;
+        padding: 12px;
+        text-align: center;
+        text-decoration: none;
+        /* display: inline-block; */
+        font-size: 16px;
+        margin: 4px 6px;
+        border-radius: 50px;
+    
 }
