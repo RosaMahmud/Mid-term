@@ -1,0 +1,47 @@
+body{
+    
+}
+
+.container{
+    padding-top: 4px;
+    padding-right: 70px;
+    padding-left: 70px;
+}
+.part1{
+    
+}
+
+
+.navbar{
+    display: flex;
+}
+
+.right-nav{
+    display: flex;
+    margin-left: 65%;
+    justify-content: space-between;
+}
+
+.w2{
+    margin-left: 15px;
+}
+.w3{
+    margin-left: 15px;
+}
+.w4{
+    margin-left: 15px;
+}
+.w5{
+    margin-left: 15px;
+    border-width: 30px;
+    background-color: lime;
+}
+
+.below-nav{
+    margin-top: 50px;
+    display: flex;
+}
+
+.right{
+    margin-left: 50%;
+}
