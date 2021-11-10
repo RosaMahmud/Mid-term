@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="text">
+        <span class="bold">Please fill up the form to find out your </span>
+        <span class="bold" style="color:#21b573">Total yearly bonus</span>
+    </div>
+
+    <div class="form">
+
+        <input style="width: 25% ; padding: 12px 20px; margin: 8px 0;" id="name" type="text"
+            placeholder="Enter your Name">
+        <br><br>
+        <input style="width: 25% ; padding: 12px 20px; margin: 8px 0;" id="age" type="text"
+            placeholder="What is your age?">
+        <br><br>
+        <input style="width: 25% ; padding: 12px 20px; margin: 8px 0;" id="salary" type="text"
+            placeholder="What is your Monthly salary?">
+
+    </div>
+
+    <div class="btn">
+        <button class="button" onclick="process()">Calculate Bonus</button>
+    </div>
+
+
+    <div class="result">
+        <h2>Result:</h2>
+    </div>
+    <div class="ans">
+        <p class="msg" id="p1"></p>
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>

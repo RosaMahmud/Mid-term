@@ -1,0 +1,76 @@
+body{
+    background-color: rgb(240, 255, 240); 
+}
+
+.inputs{
+    justify-content: center;
+    padding-top: 20px;
+    align-items: center;
+}
+
+.bold{
+    font-weight:700;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+
+.text{
+    justify-content: center;
+    align-items: center;
+    margin-left: 30%;
+}
+
+.button{
+    position: relative;
+    background-color: rgb(33, 181, 115);
+    border: none;
+    font-size: 10px;
+    color: #FFFFFF;
+    padding: 18px;
+    width: 120px;
+    height:45px;
+    text-align: center;
+    border-radius: 50px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.form{
+    justify-content: center;
+    align-items: center;
+    margin-left: 40%;
+    margin-top: 2%;
+}
+
+.btn{
+
+    justify-content: center;
+    align-items: center;
+    margin-left: 45%;
+    margin-top: 1%;
+}
+
+.result{
+    justify-content: center;
+    align-items: center;
+    margin-left: 46.5%;
+    margin-top: 2%;
+    color:  rgb(243, 102, 42);
+}
+
+.msg{
+    margin-top: 1%;
+    justify-content: center;
+    align-items: center;
+}
+
+.ans{
+    margin-top: 2%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 33%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    font-weight: 100px;
+}
+
